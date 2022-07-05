@@ -39,3 +39,35 @@ body {
     color: white;
     font-size: 20px;
 }
+
+.container-two {
+    text-align: center;
+}
+
+.donate-amn {
+    text-align: center;
+    width: 100%;
+    top: 20%;
+}
+
+.donate-amn h1 {
+    color: black;
+    font-size: 40px;
+
+}
+
+.container-box {
+    justify-content: center;
+    display: flex;
+}
+
+.box {
+    background-color: gainsboro;
+    border: 1px solid whitesmoke;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    text-align: inherit;
+    text-justify: inter-cluster;
+    font-size: 25px;
+}
