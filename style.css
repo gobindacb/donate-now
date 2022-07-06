@@ -8,6 +8,10 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center;
+    justify-content: center;
+    position: absolute;
+
+
 }
 
 .info {
@@ -22,6 +26,7 @@ body {
     font-weight: 900;
     font-size: 60px;
     color: azure;
+    justify-content: center;
 }
 
 .info p {
@@ -42,6 +47,7 @@ body {
 
 .container-two {
     text-align: center;
+
 }
 
 .donate-amn {
