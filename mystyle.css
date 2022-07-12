@@ -1,0 +1,353 @@
+. {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.head {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer
+}
+
+span {
+    color: red;
+    font-family: cursive;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #f9004d;
+    transition: .4s;
+}
+
+.btn {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    right: 12%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+    margin-bottom: 25px;
+}
+
+h4 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.newslater form {
+    width: 350px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newslater form input:first-child {
+    display: inline-block;
+    width: 56%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.newslater form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 12px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.about {
+    height: 90vh;
+    width: 100%;
+    background-image: url(/images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+
+}
+
+.about-img {
+    height 350px;
+    width: 400px;
+}
+
+.about-text {
+    width: 500px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 55px;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+.about-text h5 {
+    color: white;
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.about-text p {
+    font-size: 20px;
+    color: white;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 12px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: .4s;
+
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.title h2 {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 65px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.box-img {
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.box {
+    display: flex;
+    margin-top: -110px;
+    background-image: url(images/bg3.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    border: 1px solid yellowgreen;
+    background-color: lightgreen;
+    width: 400px;
+    height: 350px;
+    margin: 15px 20px;
+    margin-top: 200px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #b30f0f;
+    padding-top: 50px;
+    font-size: 20px;
+    transition: .4s;
+
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: bisque;
+}
+
+.card h5 {
+    font-size: 30px;
+    font-family: cursive;
+    color: #b30f0f;
+    margin-top: 20px;
+}
+
+.card p {
+    margin-top: 10px;
+}
+
+.contact-me {
+    background-image: url(images/bg4.jpg);
+    width: 100%;
+    height: 290px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.contact-me p {
+    color: #f9004d;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 3opx;
+    border-radius: 30px;
+    transition: .4s;
+    width: 100px;
+
+    text-align: center;
+}
+
+.contact-me .button-two:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1) {
+    font-size: 35px;
+    color: white;
+    font-family: cursive;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2) {
+    font-size: 25px;
+    color: white;
+
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.end {
+    font-size: 12px;
+    color: white;
+}
+
+.social a {
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+
+    align-items: center;
+    justify-content: center;
+    background-color: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.social img {
+    width: 65px;
+    height: 65px;
+    transition: .4s;
+}
+
+.social img:hover {
+    cursor: grabbing;
+    background-color: bisque;
+}
